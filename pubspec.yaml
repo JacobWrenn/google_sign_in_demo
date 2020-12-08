@@ -1,0 +1,23 @@
+name: google_sign_in_demo
+description: A demo of Google Sign In with HTTP requests.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http:
+  flutter_keychain:
+  flutter_web_auth:
+  jwt_decoder:
+  flutter_spinkit:
+
+flutter:
+
+  uses-material-design: true
